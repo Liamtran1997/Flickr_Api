@@ -31,8 +31,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 #
 gem 'bootsnap', '>= 1.1.0', require: false
-
-gem "figaro"
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'dotenv', '~> 2.7', '>= 2.7.6'
+# gem "figaro"
 gem "flickr", "~> 2.0"
 gem 'bootstrap', '~> 5.0.0.alpha2'
 
